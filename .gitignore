@@ -94,6 +94,18 @@ ENV/
 # For mac
 .DS_Store
 
+
+#for images
+*.png
+*.jpg
+*.bmp
+*.jpeg
+research/deeplab/ADE20K
+research/deeplab/datasets/ADE20K
+
+#for ckpts
+*.ckpt
+
 # Training data for word embedding tutorial
 tutorials/embedding/text8
 tutorials/embedding/questions-words.txt
