@@ -105,6 +105,8 @@ research/deeplab/datasets/ADE20K
 
 #for ckpts
 *.ckpt
+research/deeplab/xception
+research/deeplab/snapshots
 
 # Training data for word embedding tutorial
 tutorials/embedding/text8

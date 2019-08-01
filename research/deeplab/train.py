@@ -20,6 +20,12 @@ See model.py for more details and usage.
 import six
 import tensorflow as tf
 from tensorflow.python.ops import math_ops
+
+import sys
+
+sys.path.append("/Users/kartik/Documents/Razorthink/models/research")
+sys.path.append("/Users/kartik/Documents/Razorthink/models/research/slim")
+
 from deeplab import common
 from deeplab import model
 from deeplab.datasets import data_generator
