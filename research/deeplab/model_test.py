@@ -17,6 +17,10 @@
 
 import tensorflow as tf
 
+import sys
+sys.path.append("/Users/kartik/Documents/Razorthink/models/research")
+sys.path.append("/Users/kartik/Documents/Razorthink/models/research/slim")
+
 from deeplab import common
 from deeplab import model
 
